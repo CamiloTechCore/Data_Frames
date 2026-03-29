@@ -1,5 +1,20 @@
-# Documentos y BD 
+# Documentos y BD
+*.xlsb
+*.xlsx
+*.docx
 
-.xlsb
-.xlxs
-.docx
+# Caché de Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos generados
+*.html
+.DS_Store
